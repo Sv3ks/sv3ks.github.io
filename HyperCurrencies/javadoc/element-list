@@ -1,0 +1,8 @@
+me.sv3ks.hypercurrencies
+me.sv3ks.hypercurrencies.commands.corecommands
+me.sv3ks.hypercurrencies.commands.playercommands
+me.sv3ks.hypercurrencies.currencies
+me.sv3ks.hypercurrencies.currencies.providers
+me.sv3ks.hypercurrencies.hooks
+me.sv3ks.hypercurrencies.listeners
+me.sv3ks.hypercurrencies.utils
