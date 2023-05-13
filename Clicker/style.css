@@ -64,6 +64,7 @@ body {
 	padding: 10px;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .menu li i {
@@ -75,6 +76,7 @@ body {
 .menu li span {
 	opacity: 0;
 	transition: opacity 0.3s;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .navbar:hover .menu li span {
