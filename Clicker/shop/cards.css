@@ -1,0 +1,101 @@
+.card {
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #FAA77D;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease;
+	font-family: 'Noto Sans', sans-serif;
+	flex: 1 1 300px; /* Adjust the width as needed */
+}
+  
+.card:hover {
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.chat-avatar {
+	width: 30px;
+	height: 30px;
+	background-color: #FAD9C8;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.material-symbols-outlined {
+	font-size: 30px;
+}
+
+.chat-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #7A523D;
+}
+  
+.chat-body {
+	display: flex;
+	flex-direction: column;
+}
+  
+.chat-message {
+	padding: 10px;
+	background-color: #FAA77D;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+  
+.chat-info {
+	font-size: 12px;
+	color: #7A523D;
+}
+  
+.chat-message-title {
+	font-size: 18px;
+	margin: 5px 0;
+	color: #7A523D;
+}
+  
+.chat-message-description {
+	font-size: 14px;
+	color: #7A523D;
+}
+  
+.chat-actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+  
+.chat-price {
+	font-weight: bold;
+	font-size: 16px;
+	color: #7A523D;
+}
+  
+button {
+	padding: 5px 10px;
+	background-color: #FAA77D;
+	color: #C78563;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+
+	font-family: 'Noto Sans', sans-serif;
+}
+  
+button:hover {
+	background-color: #FAD9C8;
+}
+  
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding-left: 70px;
+}

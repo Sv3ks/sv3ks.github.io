@@ -2,11 +2,9 @@
 
 	let MAIN_URL = 'http://127.0.0.1:5500/clicker/'
 	let SHOP_URL = 'http://127.0.0.1:5500/shop/'
-	
-	if (window.location == MAIN_URL) {
-		let clickItem = document.getElementById('clicker-image')
-		let clickText = document.getElementById('coin-display')
-	}
+
+	let clickItem = document.getElementById('clicker-image')
+	let clickText = document.getElementById('coin-display')
 
 	let coins = 0
 	
@@ -22,10 +20,8 @@
 		}
 	}
 	
-	if (window.location == MAIN_URL) {
-		clickText.innerHTML = '$'+coins
-		clickItem.addEventListener('click',()=>{clickText.innerHTML = '$'+(++coins)})
-	}
+	clickText.innerHTML = '$'+coins
+	clickItem.addEventListener('click',()=>{clickText.innerHTML = '$'+(++coins)})
 
 	function save() {
 		localStorage.setItem("clickerData",JSON.stringify({
